@@ -15,8 +15,8 @@ import com.pedrocarvalho.workshopmongo.dto.CommentDTO;
 @Document
 public class Post implements Serializable{
 
-	@Id
 	private static final long serialVersionUID = 1L;
+	@Id
 	private String id;
 	private Date date;
 	private String title;
